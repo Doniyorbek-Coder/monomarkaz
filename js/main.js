@@ -2,7 +2,6 @@ let searchModal = document.querySelector(".search-modal");
 let searchButton = document.querySelector(".nav__link-search");
 let modalClose = document.querySelector(".modal-close");
 let dropDown = document.querySelector(".dropdown-list");
-let navLink = document.querySelector("#nav__link");
 let hamburger = document.querySelector(".hamburger");
 let navList = document.querySelector(".nav__list");
 
@@ -14,10 +13,20 @@ modalClose.addEventListener("click", (e) => {
   searchModal.classList.toggle("show");
 });
 
-navLink.addEventListener("click", (e) => {
-  dropDown.classList.toggle("shows");
-});
-
 hamburger.addEventListener("click", (e) => {
   navList.classList.toggle("showss");
 });
+
+// var coll = document.getElementsByClassName("nav__link");
+// var i;
+
+// for (i = 0; i < coll.length; i++) {
+//   coll[i].addEventListener("click", function () {
+//     var content = this.nextElementSibling;
+//     if (content.style.display === "block") {
+//       content.style.display = "none";
+//     } else {
+//       content.style.display = "block";
+//     }
+//   });
+// }

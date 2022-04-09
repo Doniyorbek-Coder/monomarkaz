@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monomarkaz</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="site-header">
@@ -137,6 +138,17 @@
           <ul class="nav__list">
             <li class="nav__item">
               <a href="#" class="nav__link nav__link-menu">Asosiy</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">xizmatlarimiz haqida</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Newsletter</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">LinkedIn</a>
+                </li>
+              </ul>
             </li>
             <li class="nav__item">
               <a id="nav__link" href="#" class="nav__link nav__link-menu"
@@ -156,12 +168,45 @@
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link nav__link-menu">Hamkorlar</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">xizmatlarimiz haqida</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Newsletter</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">LinkedIn</a>
+                </li>
+              </ul>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link nav__link-menu">Xizmatlar</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">xizmatlarimiz haqida</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Newsletter</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">LinkedIn</a>
+                </li>
+              </ul>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link nav__link-menu">Mediamarkaz</a>
+              <ul class="dropdown-list">
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">xizmatlarimiz haqida</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Newsletter</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">LinkedIn</a>
+                </li>
+              </ul>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link">Yangiliklar</a>
@@ -220,21 +265,126 @@
     </header>
 
     <main>
-      <h1 style="margin: 150px">Hello world</h1>
+      <section>
+        <div class="carousel">
+          <div class="progress-bar progress-bar--primary hide-on-desktop">
+            <div class="progress-bar__fill"></div>
+          </div>
+
+          <header class="main-post-wrapper">
+            <div class="slides">
+              <article class="main-post main-post--active">
+                <div class="main-post__image">
+                  <img
+                    src="./images/a1.jpg"
+                    alt="New McLaren wind tunnel 'critical' to future performance, says Tech Director Key"
+                  />
+                </div>
+                <div class="main-post__content">
+                  <div class="main-post__tag-wrapper">
+                    <span
+                      class="main-post__tag"
+                      style="border-left: 8px solid blue"
+                      >Ishga marhamat Monomarkaz!</span
+                    >
+                  </div>
+                  <h1 class="main-post__title" style="color: #fff">
+                    Rasmiy saytiga xush kelibsiz !
+                  </h1>
+                </div>
+              </article>
+              <article class="main-post main-post--not-active">
+                <div class="main-post__image">
+                  <img
+                    src="./images/a2.jpg"
+                    alt="What To Watch For in the 2019 Hungarian Grand Prix"
+                  />
+                </div>
+                <div class="main-post__content">
+                  <div class="main-post__tag-wrapper">
+                    <span
+                      class="main-post__tag"
+                      style="border-left: 8px solid blue"
+                      >Ishga marhamat Monomarkaz!</span
+                    >
+                  </div>
+                  <h1 class="main-post__title" style="color: #fff">
+                    Mehnat bozorida talab yuqori bo'lgan zamonaviy kasblarni biz
+                    bilan o'rganing!
+                  </h1>
+                </div>
+              </article>
+              <article class="main-post main-post--not-active">
+                <div class="main-post__image">
+                  <img
+                    src="./images/a4.jpg"
+                    alt="Hamilton wants harder championship fight from Leclerc and
+            Verstappen"
+                  />
+                </div>
+                <div class="main-post__content">
+                  <div class="main-post__tag-wrapper">
+                    <span
+                      class="main-post__tag"
+                      style="border-left: 8px solid blue"
+                      >Ishga marhamat Monomarkaz!</span
+                    >
+                  </div>
+                  <h1 class="main-post__title" style="color: #fff">
+                    Qisqa muddatda malakali mutaxassis bo'lish imkoniyatidan
+                    foydalaning
+                  </h1>
+                </div>
+              </article>
+            </div>
+          </header>
+
+          <div class="posts-wrapper hide-on-mobile">
+            <article class="post post--active">
+              <div class="progress-bar">
+                <div class="progress-bar__fill"></div>
+              </div>
+              <header class="post__header"></header>
+              <br /><br />
+              <h1 class="post__title">Biz ishonch !</h1>
+            </article>
+            <article class="post">
+              <div class="progress-bar">
+                <div class="progress-bar__fill"></div>
+              </div>
+              <header class="post__header"></header>
+              <br /><br />
+              <h2 class="post__title">Biz kelajak !</h2>
+            </article>
+            <article class="post">
+              <div class="progress-bar">
+                <div class="progress-bar__fill"></div>
+              </div>
+              <header class="post__header"></header>
+              <br /><br />
+              <h2 class="post__title">Biz Monomarkaz !</h2>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
       <div class="container">
         <ul class="footer__list">
           <li class="footer__item">
-            <a href="#" class="main__link"
+            <a href="#" class="footer__logo"
               ><img
                 class="footer-logo"
                 src="images/logo.jpg"
                 width="85"
                 height="85"
                 alt="site-logo"
-              /><span>monomarkaz</span></a
+              />
+            </a>
+            <span class="footer--title"
+              >TOSHKENT SHAHRIDAGI "ISHGA MARHAMAT" MONOMARKAZINING RASMIY
+              VEB-SAYTI.</span
             >
           </li>
           <li class="footer__item">
@@ -313,4 +463,5 @@
     </footer>
   </body>
   <script src="js/main.js"></script>
+  <script src="js/carousel.js"></script>
 </html>
